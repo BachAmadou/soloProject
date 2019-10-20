@@ -59,12 +59,15 @@ nav {
     padding: 10px;
 }
 
+.active {
+    color: red;
+}
 
 /* SEARCH-SECTION -  DESIGN*/
 .search-navigation {
     border: 1px solid grey;
-    padding: 7px;
-    margin: 7px auto 7px auto;
+    padding: 5px;
+    margin: 10px auto 10px auto;
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -75,6 +78,19 @@ input[type="search"] {
     width: 100%;
     border-right: 1px solid #000;
     margin-left: 10px;
+}
+
+.selection {
+    width: 120px;
+    margin-right: 60px;
+}
+
+.water {
+    margin-left: 60px;
+}
+
+.reset {
+    margin-left: 100px;
 }
 
 /* MAIN-SECTION-1 -  DESIGN*/
