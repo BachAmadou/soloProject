@@ -1,0 +1,30 @@
+
+/* BASIC -  DESIGN*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Jomolhari', serif;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Modak', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    max-width: 1080px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* HEADER -  DESIGN*/
+header {
+    margin: 40px auto 20px auto;
+}
