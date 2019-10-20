@@ -7,8 +7,8 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Jomolhari', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Jomolhari', serif; */
     font-family: 'Almarai', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Modak', cursive;
@@ -33,12 +33,15 @@ header {
 #logo {
     margin-right: auto;
 }
+
 #logo .logo-bold {
     font-weight: bold;
 }
+
 nav {
     display: inline-block;
 } 
+
 .nav-menu ul {
     text-transform: uppercase;
     font-size: 14px;
@@ -58,7 +61,21 @@ nav {
 
 
 /* SEARCH-SECTION -  DESIGN*/
+.search-navigation {
+    border: 1px solid grey;
+    padding: 7px;
+    margin: 7px auto 7px auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
 
+input[type="search"] {
+    width: 100%;
+    border-right: 1px solid #000;
+    margin-left: 10px;
+}
 
 /* MAIN-SECTION-1 -  DESIGN*/
 #main-section-1 {
@@ -72,20 +89,28 @@ nav {
     display: flex;
     margin: 10px auto 5px auto;
 }
+.card .item-1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card item-2 {
+    font-family: 'Jomolhari', serif;
+}
 
 .card .font-name {
     margin-right: auto;
 }
 
 .card .font-button {
-    padding: 3px 5px;
+    padding: 2px;
     border: 2px solid red;
-    border-radius: 100%;
+    border-radius: 100%; 
     color: red;
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
 }
+
 .card .font-creator {
     font-size: 12px;
     margin-bottom: 30px;
@@ -102,33 +127,6 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     margin-bottom: 80px;
-}
-
-.card .card-items {
-    display: flex;
-    margin: 10px auto 5px auto;
-}
-
-.card .font-name {
-    margin-right: auto;
-}
-
-.card .font-button {
-    padding: 3px 5px;
-    border: 2px solid red;
-    border-radius: 100%;
-    color: red;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.card .font-creator {
-    font-size: 12px;
-    margin-bottom: 30px;
-}
-
-.card .font-text {
-    font-size: 30px;
 }
 
 
