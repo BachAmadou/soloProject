@@ -64,10 +64,10 @@ nav {
 }
 
 /* SEARCH-SECTION -  DESIGN*/
-.search-navigation {
+form {
     border: 1px solid grey;
     padding: 5px;
-    margin: 10px auto 10px auto;
+    margin: 15px auto 15px auto;
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
