@@ -1,12 +1,6 @@
-// Get the value from the input when typing and update the card
+// Get the value from the input when typing and update the card paragraph automatically
 
-
-const output =  document.querySelector('textTyping');
-
-output.addEventListener('change', function(e) {
-    e.preventDefault();
-    const inputText = document.getElementById('textTyping').value;
-    const cardText = document.getElementById('cardText');
-    cardText.innerHTML = inputText;
-});
-
+function displayText() {
+    const inputText = document.querySelector(".textTyping").value;
+    document.querySelector(".cardParagraph").innerHTML = inputText;
+}
