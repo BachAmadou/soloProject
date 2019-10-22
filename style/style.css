@@ -101,16 +101,17 @@ input[type="search"] {
     margin-bottom: 60px;
 }
 
+/* .card {
+    max-width: 300px;
+    word-wrap: break-word;
+} */
+
 .card .card-items {
     display: flex;
     margin: 10px auto 5px auto;
 }
 .card .item-1 {
     font-family: 'Roboto', sans-serif;
-}
-
-.card item-2 {
-    font-family: 'Jomolhari', serif;
 }
 
 .card .font-name {
