@@ -77,6 +77,8 @@ form {
 input[type=text] {
     width: 100%;
     margin-left: 10px;
+    outline: none;
+    border: none;
 }
 
 input:active {
