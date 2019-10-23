@@ -9,12 +9,12 @@ body {
     box-sizing: border-box;
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Jomolhari', serif; */
-    font-family: 'Almarai', sans-serif;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Almarai', sans-serif; */
+    /* font-family: 'Lato', sans-serif;
     font-family: 'Modak', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
 }
 
 #wrapper {
@@ -66,7 +66,7 @@ nav {
 /* SEARCH-SECTION -  DESIGN*/
 form {
     border: 1px solid grey;
-    padding: 5px;
+    padding: 10px 0 5px 0;
     margin: 15px auto 15px auto;
     border-radius: 20px;
     display: grid;
@@ -74,10 +74,18 @@ form {
     grid-gap: 30px;
 }
 
-input[type="search"] {
+input[type=text] {
     width: 100%;
-    border-right: 1px solid #000;
     margin-left: 10px;
+}
+
+input:active {
+    border: none;
+}
+
+.textTyping {
+    position: relative;
+    bottom: 5px;
 }
 
 .selection {
@@ -85,13 +93,15 @@ input[type="search"] {
     margin-right: 60px;
 }
 
-.water {
-    margin-left: 60px;
+.bg-black {
+    background-color: #000;
+    border-radius: 50%;
 }
 
-.reset {
-    margin-left: 100px;
+.list-icon {
+    margin: auto 80px auto 80px;
 }
+
 
 /* MAIN-SECTION-1 -  DESIGN*/
 #main-section-1 {
@@ -101,10 +111,10 @@ input[type="search"] {
     margin-bottom: 60px;
 }
 
-/* .card {
-    max-width: 300px;
+.card {
+    max-width: 245px;
     word-wrap: break-word;
-} */
+} 
 
 .card .card-items {
     display: flex;
@@ -120,8 +130,7 @@ input[type="search"] {
 
 .card .font-button {
     padding: 2px;
-    border: 2px solid red;
-    border-radius: 100%; 
+    border: none; 
     color: red;
     font-size: 12px;
     font-weight: bold;
@@ -137,6 +146,14 @@ input[type="search"] {
     font-size: 30px;
 }
 
+.searchOne { font-family: 'Roboto', sans-serif; }
+.searchTwo { font-family: 'Jomolhari'; }
+.searchThree { font-family: 'Almarai', sans-serif; }
+.fontFour { font-family: 'Lato', sans-serif; }
+.fontFive { font-display: 'Modak', cursive; }
+.fontSix { font-display: 'Montserrat', sans-serif; }
+.fontSeven { font-display: 'Roboto Condensed', sans-serif; }
+.fontEight { font-display: 'Open Sans', sans-serif; }
 
 /* MAIN-SECTION-2 -  DESIGN*/
 #main-section-2 {

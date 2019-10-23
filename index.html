@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google Fonts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Almarai|Jomolhari|Lato|Modak|Montserrat|Open+Sans|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -33,12 +34,14 @@
         <section id="search">
             <div class="search-navigation">
                 <form id="updateValue">
+
                     <div class="searchOne">
-                        <input type="search" placeholder="Search fonts">
+                        <input type="text" placeholder="Search fonts">
                     </div>
                     <div class="searchTwo">
-                        <input type="search" placeholder="Type something" class="textTyping" oninput="displayText()">
+                        <input type="text" placeholder="Type something" class="textTyping" oninput="displayText()">
                     </div> 
+
                     <div class="search-3">
                         <select class="selection" onchange="ChangeFont(this);" >
                             <option value="8px">8px</option>
@@ -53,13 +56,13 @@
                             <option value="120px">120px</option>
                             <option value="184px">184px</option>
                         </select>
-                        <i class="fab fa-accessible-icon"></i>
-                        <i class="fab fa-accessible-icon"></i><i class="fa fa-camera-retro fa-lg"></i> 
-                    </div>            
+                        <a><i class="far fa-circle"></i></a>
+                        <a><i class="far fa-circle bg-black"></i></a>
+                    </div>    
+
                     <div class="search-4">
-                        <i class="fab fa-accessible-icon water"></i>
-                        <i class="fab fa-accessible-icon"></i>
-                        <i class="fab fa-accessible-icon reset"></i>
+                        <a><i class="fas fa-list list-icon"></i></a>
+                        <a><i class="fas fa-redo reset-icon"></i></a>
                     </div>      
                 </form>
             </div>
@@ -67,111 +70,85 @@
 
         <!-- MAIN SECTION-->
         <section id="main-section-1">
-
-            <div class="card">
-
+            <div class="card fontOne">
                 <div><hr/></div>
-
                 <div class="card-items item-1">
-                    <h5 class="font-name">Roboto</h5>
-                    <button type="submit" class="font-button">+</button>
+                    <h4 class="font-name">Roboto</h4>
+                    <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </div>
                 <p class="font-creator">Christina Robertson</p>
-
                 <p class="font-text cardParagraph" id="fontText" style="font-size-adjust: 14px" >Then came the night of the first falling star.</p>
             </div>
 
-            <div class="card">
-
+            <div class="card fontTwo">
                 <div><hr/></div>
-
                 <ul class="card-items">
-                    <h5 class="font-name">Gayathri</h5>
-                    <button type="submit" class="font-button">+</button>
+                    <h4 class="font-name">Gayathri</h4>
+                    <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">SMC</p>
-
                 <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
             </div>
 
-            <div class="card">
-
+            <div class="card fontThree">
                 <div><hr/></div>
-
                 <ul class="card-items">
-                    <h5 class="font-name">Chilanka</h5>
-                    <button type="submit" class="font-button">+</button>
+                    <h4 class="font-name">Chilanka</h4>
+                    <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">SMC</p>
-
                 <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
             </div>
 
-            <div class="card">
-
+            <div class="card fontFour">
                 <div><hr/></div>
-
                 <ul class="card-items">
-                    <h5 class="font-name">Open Sans</h5>
-                    <button type="submit" class="font-button">+</button>
+                    <h4 class="font-name">Open Sans</h4>
+                    <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">Steve Matterson</p>
-
                 <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
             </div>
         </section>
 
         <section id="main-section-2">
-
-                <div class="card">
-    
+                <div class="card fontFive">
                     <div><hr/></div>
-    
                     <div class="card-items">
-                        <h5 class="font-name">Lato</h5>
-                        <button type="submit" class="font-button">+</button>
+                        <h4 class="font-name">Lato</h4>
+                        <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </div>
                     <p class="font-creator">Lukasz Dziedzic</p>
-    
                     <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
                 </div>
     
-                <div class="card">
-    
+                <div class="card fontSix">
                     <div><hr/></div>
-    
                     <ul class="card-items">
-                        <h5 class="font-name">Manjari</h5>
-                        <button type="submit" class="font-button">+</button>
+                        <h4 class="font-name">Manjari</h4>
+                        <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">santhosh Thottingal</p>
-    
                     <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
                 </div>
     
-                <div class="card">
-    
+                <div class="card fontSeven">
                     <div><hr/></div>
-    
                     <ul class="card-items">
-                        <h5 class="font-name">Montserrat</h5>
-                        <button type="submit" class="font-button">+</button>
+                        <h4 class="font-name">Montserrat</h4>
+                        <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">Julieta Ulanovsky</p>
-    
                     <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
                 </div>
     
-                <div class="card">
-    
+                <div class="card fontEight">
                     <div><hr/></div>
-    
                     <ul class="card-items">
-                        <h5 class="font-name">Roboto Condensed</h5>
-                        <button type="submit" class="font-button">+</button>
+                        <h4 class="font-name">Roboto Condensed</h4>
+                        <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">Christina Robertson</p>
-    
                     <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
                 </div>
             </section>
