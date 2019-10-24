@@ -21,7 +21,7 @@ function filter() {
         for(i = 0; 1 < card.length; i++) {
             let name = card[i].getElementsByClassName('name');
             if(name[0].innerHTML.toUpperCase().indexOf(inputWord) > - 1) {
-                card[i].style.display = '';
+                card[i].style.display = 'flex';
             } else {
                 card[i].style.display = 'none';
             }
@@ -76,4 +76,11 @@ function filter() {
 // function ChangeFont(selectFont) {
 //     let sizeIndex = selectFont.options[selectFont.selectedIndex].index;
 //     document.getElementById('fontText').style.fontSize = sizeIndex;
+// }
+
+
+// const cardsText = document.getElementsByClassName('card').text;
+
+// function reset() {
+//     document.getElementById('reset').reset();
 // }
