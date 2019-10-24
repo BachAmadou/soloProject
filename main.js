@@ -1,5 +1,26 @@
 
-// SCRIPT FOR THE SEARCH INPUT - 1 (TYPING TEXT)
+// SCRIPT FOR THE SEARCH INPUT - 1 (SEARCH A FONT)
+// User can search for a font by filtering a particular font.
+function filter() {
+    let inputWord = document.getElementById('inputWord').value;
+    let cards = document.getElementsByClassName('card');
+
+    for(card of cards) {
+        for(i = 0; 1 < card.length; i++) {
+            let name = card[i].getElementsByClassName('name');
+            if(name[0].innerHTML.indexOf(inputWord) > - 1) {
+                card[i].style.display = 'flex';
+            } else {
+                card[i].style.display = 'none';
+            }
+        }
+    }
+}
+
+
+
+
+// SCRIPT FOR THE SEARCH INPUT - 2 (TYPING TEXT)
 // Get the value from the input when typing and update the card paragraph automatically
 function displayText() {
     const inputText = document.querySelector(".textTyping").value;
@@ -13,21 +34,31 @@ function displayText() {
 
 
 
-function filter() {
-    let inputWord = document.getElementById('inputWord').value.toUpperCase();
-    let cards = document.getElementsByClassName('card');
 
-    for(card of cards) {
-        for(i = 0; 1 < card.length; i++) {
-            let name = card[i].getElementsByClassName('name');
-            if(name[0].innerHTML.toUpperCase().indexOf(inputWord) > - 1) {
-                card[i].style.display = 'flex';
-            } else {
-                card[i].style.display = 'none';
-            }
-        }
-    }
-}
+
+
+
+
+// function isEmpty(val) {
+//     return ((val !== "") (val !== undefined) (val.length > 0) || (val !== null));
+// }
+
+// if (isEmpty(inputWord)) {
+//     var cardParagraph = document.getElementsByClassName('cardParagraph');
+//     for (var i = 0; i < cardParagraph.length; i++) {
+//         cardParagraph[i].innerHTML = 'Then came the night of the first falling star.';
+//     }
+// } 
+
+// var input = document.getElementById('inputWord');
+
+// input.addEventListener('keyup', function() {
+//     var output= document.getElementsByClassName('outputText');
+//     for (var i = 0; i < cardParagraph.length; i++) {
+//     output[i].innerHTML=input.value;
+//     }
+
+// });
 
 
     // function filter() {
