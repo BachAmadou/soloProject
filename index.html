@@ -36,7 +36,7 @@
                 <form id="updateValue">
 
                     <div class="searchOne">
-                        <input type="text" placeholder="Search fonts">
+                        <input type="text" id="inputWord" class="word" placeholder="Search fonts" onkeyup="filter()">
                     </div>
                     <div class="searchTwo">
                         <input type="text" placeholder="Type something" class="textTyping" oninput="displayText()">
@@ -69,10 +69,10 @@
         <section id="main-section-1">
             <div class="card fontOne">
                 <div><hr/></div>
-                <div class="card-items item-1">
-                    <h4 class="font-name">Roboto</h4>
+                <ul class="card-items item-1">
+                    <h4 class="name">Roboto</h4>
                     <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
-                </div>
+                </ul>
                 <p class="font-creator">Christina Robertson</p>
                 <p class="font-text cardParagraph" id="fontText" style="font-size-adjust: 14px" >Then came the night of the first falling star.</p>
             </div>
@@ -80,7 +80,7 @@
             <div class="card fontTwo">
                 <div><hr/></div>
                 <ul class="card-items">
-                    <h4 class="font-name">Gayathri</h4>
+                    <h4 class="name">Gayathri</h4>
                     <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">SMC</p>
@@ -90,7 +90,7 @@
             <div class="card fontThree">
                 <div><hr/></div>
                 <ul class="card-items">
-                    <h4 class="font-name">Chilanka</h4>
+                    <h4 class="name">Chilanka</h4>
                     <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">SMC</p>
@@ -100,7 +100,7 @@
             <div class="card fontFour">
                 <div><hr/></div>
                 <ul class="card-items">
-                    <h4 class="font-name">Open Sans</h4>
+                    <h4 class="name">Open Sans</h4>
                     <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                 </ul>
                 <p class="font-creator">Steve Matterson</p>
@@ -111,10 +111,10 @@
         <section id="main-section-2">
                 <div class="card fontFive">
                     <div><hr/></div>
-                    <div class="card-items">
-                        <h4 class="font-name">Lato</h4>
+                    <ul class="card-items">
+                        <h4 class="name">Lato</h4>
                         <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
-                    </div>
+                    </ul>
                     <p class="font-creator">Lukasz Dziedzic</p>
                     <p class="font-text cardParagraph">Then came the night of the first falling star.</p>
                 </div>
@@ -122,7 +122,7 @@
                 <div class="card fontSix">
                     <div><hr/></div>
                     <ul class="card-items">
-                        <h4 class="font-name">Manjari</h4>
+                        <h4 class="name">Manjari</h4>
                         <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">santhosh Thottingal</p>
@@ -132,7 +132,7 @@
                 <div class="card fontSeven">
                     <div><hr/></div>
                     <ul class="card-items">
-                        <h4 class="font-name">Montserrat</h4>
+                        <h4 class="name">Montserrat</h4>
                         <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">Julieta Ulanovsky</p>
@@ -142,7 +142,7 @@
                 <div class="card fontEight">
                     <div><hr/></div>
                     <ul class="card-items">
-                        <h4 class="font-name">Roboto Condensed</h4>
+                        <h4 class="name">Roboto Condensed</h4>
                         <button type="submit" class="font-button"><i class="material-icons">&#xe3ba;</i></button>
                     </ul>
                     <p class="font-creator">Christina Robertson</p>

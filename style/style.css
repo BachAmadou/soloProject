@@ -81,18 +81,25 @@ input[type=text] {
     border: none;
 }
 
+.word {
+    position: relative;
+    bottom: 4px;
+}
+
 input:active {
     border: none;
 }
 
 .textTyping {
     position: relative;
-    bottom: 5px;
+    bottom: 3px;
 }
 
 .selection {
     width: 120px;
     margin-right: 60px;
+    position: relative;
+    bottom: 3px;
 }
 
 .bg-black {
@@ -126,7 +133,7 @@ input:active {
     font-family: 'Roboto', sans-serif;
 }
 
-.card .font-name {
+.card .name {
     margin-right: auto;
 }
 
@@ -148,9 +155,9 @@ input:active {
     font-size: 30px;
 }
 
-.searchOne { font-family: 'Roboto', sans-serif; }
-.searchTwo { font-family: 'Jomolhari'; }
-.searchThree { font-family: 'Almarai', sans-serif; }
+.fontOne { font-family: 'Roboto', sans-serif; }
+.fontTwo { font-family: 'Jomolhari'; }
+.fontThree { font-family: 'Almarai', sans-serif; }
 .fontFour { font-family: 'Lato', sans-serif; }
 .fontFive { font-display: 'Modak', cursive; }
 .fontSix { font-display: 'Montserrat', sans-serif; }
