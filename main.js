@@ -13,7 +13,6 @@ function filter() {
         } else {
             card.style.display = 'none';
         }
-    
     }
 }
 
@@ -50,16 +49,13 @@ function displayText() {
 
 
 
-
 // FUNCTIONALITY - 4: USER CAN RESET THE CARD AFTER CLICK THE RESET BUTTON
 
-// function ChangeFont(selectFont) {
-//     let sizeIndex = selectFont.options[selectFont.selectedIndex].index;
-//     document.getElementById('fontText').style.fontSize = sizeIndex;
-// }
+const cardContent = document.getElementsByClassName('cardParagraph');
+const resetBtn = document.getElementById('resetButton');
 
+resetBtn.addEventListener('click', resetAll);
 
 function resetAll() {
-    const fontText = "Then came the night of the first falling star".
-    document.getElementsByClassName('font-text').innerHTML = fontText;
+    cardContent.getElementsById('font-text').innerHTML = cardContent;
 }
