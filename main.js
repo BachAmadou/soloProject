@@ -1,6 +1,5 @@
 // FUNCTIONALITY - 1: SCRIPT FOR THE SEARCH INPUT - 1 (SEARCH A FONT)
 // User can search for a font by filtering a particular font.
-
 function filter() {
     let inputWord = document.getElementById('inputWord').value.toLowerCase();
     let cards = document.getElementsByClassName('card');
@@ -19,7 +18,6 @@ function filter() {
 
 // FUNCTIONALITY - 2: SCRIPT FOR THE SEARCH INPUT - 2 (TYPING TEXT)
 // Get the value from the input when typing and update the card paragraph automatically
-
 function displayText() {
     const inputText = document.querySelector(".textTyping").value;
     const cardParagraphs = document.querySelectorAll(".cardParagraph");
@@ -31,25 +29,18 @@ function displayText() {
 
 
 // FUNCTIONALITY - 3: USER CAN UPDATE THE FONT SIZE WHEN SELECTING AN OPTION
-
 // Get the font size updated when the user selects a size option
-// function ChangeFont(select) {
-//     // Return the index of the selected option
-//     let sizeIndex = select.selectedIndex;
+function changeFont() {
+    let fontOption = document.getElementById('font_size');
+    let fontText = document.getElementsByClassName('font-text');
 
-//     // Return selected size values
-//     let sizeOption = select.options[sizeIndex].text;
-//     let fontSize = document.getElementById('fontText');
-
-//     if ('fontSizeAdjust' in fontText.style) {
-//         fontText.style.fontSizeAdjust = sizeOption;
-//     }
-
-// }
+    for(let i = 0; i < fontOption.length; i++) {
+        fontText[i].style.fontSize = fontOption.value;
+    }
+}
 
 
-// FUNCTIONALITY - 4: USER CAN RESET THE CARD AFTER CLICK THE RESET BUTTON
-
+// FUNCTIONALITY - 4: USER CAN RESET THE CARD AFTER CLICK THE RESET BUTTON    
 const cardContent = document.getElementsByClassName('cardParagraph');
 const resetBtn = document.getElementById('resetButton');
 
