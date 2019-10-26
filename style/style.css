@@ -159,10 +159,10 @@ input:active {
 .fontTwo { font-family: 'Jomolhari', serif; }
 .fontThree { font-family: 'Big Shoulders Text', cursive; }
 .fontFour { font-family: 'Open Sans', sans-serif; }
-.fontFive { font-display: 'Lato', sans-serif; }
-.fontSix { font-display: 'Liu Jian Mao Cao', cursive; }
-.fontSeven { font-display: 'Montserrat', sans-serif; }
-.fontEight { font-display: 'Roboto Condensed', sans-serif; }
+.fontFive { font-family: 'Lato', sans-serif; }
+.fontSix { font-family: 'Liu Jian Mao Cao', cursive; }
+.fontSeven { font-family: 'Montserrat', sans-serif; }
+.fontEight { font-family: 'Roboto Condensed', sans-serif; }
 
 
 /* MAIN-SECTION-2 -  DESIGN*/

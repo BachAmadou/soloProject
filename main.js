@@ -48,7 +48,6 @@ function displayText() {
 // }
 
 
-
 // FUNCTIONALITY - 4: USER CAN RESET THE CARD AFTER CLICK THE RESET BUTTON
 
 const cardContent = document.getElementsByClassName('cardParagraph');
