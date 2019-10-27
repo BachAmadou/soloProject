@@ -2,12 +2,23 @@
 
 <!-- This projet is about cloning google font home page. It is done with vanilla HTML, CSS and JavaScript.
 
-Resources:
+THE USE FOR THE APP:
 
+1. One can search for a font and filter through the list by typing the font name (First search bar)
+2. One can type some text (any type of text) in the search bar and when typing your text, it will at the same time show in the cards (second search bar)
+3. One can change the font size of the text. Use the select options to update the text size as you fit.
+4. We can change the home page background color to either “Black” or  “White” by clicking on the two round buttons stick to each other. We can notice one button is black and the other one is white.
+5. We can also decide to change the view to a list mode by clicking on the list icon
+6. At last, we can reset the text inside the cards by clicking on the reset button 
+
+
+
+RESOURCES:
 Font awesome:
 Google fonts
 
-REQUIREMENT
+
+REQUIREMENTS:
 
 Structure
 
