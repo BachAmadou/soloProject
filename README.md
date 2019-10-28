@@ -1,10 +1,11 @@
 
 # Google fonts clone - Chingu Voyage 13 pre-work project
-This is a the README file for a clone Google font app repo, which is the solo projoct of Chingu tier 1. In this app you will get to mess aroung. I used for this app, vanilla HTML, CSS and JavaScript.
+This is a the README file for clone Google font clone repo, which is the solo projoct of Chingu tier 1. I used for this app, vanilla HTML, CSS and JavaScript.
 
 
 ## Use resources:
-Font awesome:
+Font awesome
+
 Google fonts
 
 
@@ -16,7 +17,7 @@ Google fonts
  5. Clickable 'reset' icon on the far right of the menu bar; will make the page appear as if the user reloaded the page.
 
 
- * Work in progress *
+ *Work in progress*
 
  1. We can change the home page background color to either “Black” or  “White” by clicking on the two round buttons stick to each other. We can notice one button is black and the other one is white.
 2. We can also decide to change the view to a list mode by clicking on the list icon
