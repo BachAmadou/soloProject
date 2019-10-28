@@ -1,5 +1,5 @@
 
-# Digital Notes App - Chingu Voyage 13 pre-work project
+# Google fonts clone - Chingu Voyage 13 pre-work project
 This is a the README file for a clone Google font app repo, which is the solo projoct of Chingu tier 1. In this app you will get to mess aroung. I used for this app, vanilla HTML, CSS and JavaScript.
 
 
