@@ -1,8 +1,8 @@
 # soloProject
-
+# Digital Notes App - Chingu Voyage 11 pre-work project
 <!-- This projet is about cloning google font home page. It is done with vanilla HTML, CSS and JavaScript.
 
-THE USE FOR THE APP:
+THE USE FOR THE
 
 1. One can search for a font and filter through the list by typing the font name (First search bar)
 2. One can type some text (any type of text) in the search bar and when typing your text, it will at the same time show in the cards (second search bar)
