@@ -91,13 +91,37 @@ input:active {
     bottom: 3px;
 }
 
+.bg-white {
+    cursor: pointer;
+    border: none;
+    border-radius: 010%;
+    font-size: 15px;
+    outline: none;
+}
+.btn-black {
+    border: none;
+    outline: none;
+}
 .bg-black {
     background-color: #000;
-    border-radius: 50%;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-list {
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: auto 80px;
 }
 
 .list-icon {
     margin: auto 80px auto 80px;
+    font-size: 15px;
+    margin: 0;
 }
 
 #resetButton {
